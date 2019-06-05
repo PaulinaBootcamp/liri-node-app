@@ -15,22 +15,19 @@
 
 ## Command line walkthrough 
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+User will use command line to hit API's to search for concer, song, or movie informstion, and to utlize txt file holding predefined command and argument.
+
+See code in action for each of the commands below!
 
 ### concert-this
 
-This will search the Bands in Town Artist Events API  for an artist and render the following information about each event to the terminal:
 
-* Name of the venue
-
-* Venue location
-
-* Date of the Event (use moment to format this as "MMM DD, YYYY")
 
 ![concert-this](HW_GIFS/concert-this.gif)
 
 
 ### spotify-this-song
+
 ![concert-this](HW_GIFS/spotify-this-song.gif)
 
 
