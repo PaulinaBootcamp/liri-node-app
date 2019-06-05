@@ -1,89 +1,44 @@
-# Project Title
+# Liri App
 
-![concert-this](HW_GIFS/concert-this.gif)
+## Requirements
+* Make a liri.js app that depends on user input from the command line
+* Integrate BandsInTown, Spotify, and OMDb APIs via the appropriate NPM modules
+* Use API calls and parse through returned JSON objects, outputting them in a specified format
+* Read commands and queries from file
+## Technologies Used
+* Node.js
+* JavaScript
+* BandsInTown API 
+* Spotify API 
+* OMDb API 
 
-One Paragraph of project description goes here
 
-## Getting Started
+## Command line walkthrough 
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### Prerequisites
+### concert-this
 
-What things you need to install the software and how to install them
+This will search the Bands in Town Artist Events API  for an artist and render the following information about each event to the terminal:
 
-```
-Give examples
-```
+* Name of the venue
 
-### Installing
+* Venue location
 
-A step by step series of examples that tell you how to get a development env running
+* Date of the Event (use moment to format this as "MMM DD, YYYY")
 
-Say what the step will be
+![concert-this](HW_GIFS/concert-this.gif)
 
-```
-Give the example
-```
 
-And repeat
+### spotify-this-song
+![concert-this](HW_GIFS/spotify-this-song.gif)
 
-```
-until finished
-```
 
-End with an example of getting some data out of the system or using it for a little demo
+### movie-this
+![concert-this](HW_GIFS/movie-this.gif)
 
-## Running the tests
 
-Explain how to run the automated tests for this system
+### do-what-it-says
+![concert-this](HW_GIFS/do-what-it-says.gif)
 
-### Break down into end to end tests
 
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
