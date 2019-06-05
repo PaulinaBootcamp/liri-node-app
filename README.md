@@ -1,6 +1,6 @@
 # Project Title
 
-![concert-this](liri-node-app\HW_GIFS\concert-this.gif)
+![concert-this](HW_GIFS/concert-this.gif)
 
 One Paragraph of project description goes here
 
